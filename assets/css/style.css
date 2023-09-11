@@ -129,6 +129,16 @@ a { text-decoration: none; }
 
 li { list-style: none; }
 
+li ul li{
+  list-style: square;
+}
+ul > li {
+  margin-left: 10px;
+}
+li ul li ul li{
+  list-style: circle;
+}
+
 img, ion-icon, a, button, time, span { display: block; }
 
 button {
