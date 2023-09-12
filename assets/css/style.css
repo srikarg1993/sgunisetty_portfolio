@@ -877,6 +877,14 @@ main {
   border-radius: inherit;
 }
 
+.icon-container {
+  text-align: left; /* Optional: Center-align the icons */
+}
+
+.icon-container img {
+  display: inline-block;
+  margin: 3px; /* Optional: Add spacing between icons */
+}
 
 
 
